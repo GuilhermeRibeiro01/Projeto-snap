@@ -1,0 +1,56 @@
+.nav-link {
+    font-weight:700;
+    margin: 10px;
+}
+
+.butão{
+   /* margin-top: 10%;*/
+}
+
+.navbar-brand{
+    margin-left: 10px;
+}
+
+.coluna-escrita{
+    margin-top: 90px;
+}
+
+.coluna-escrita h1{
+    font-size: 88px;
+    font-weight: 700;
+}
+
+#img-hero{
+    max-height: 100vh;
+}
+
+#btn-lm{
+    width: 180px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    height: 50px;
+}
+
+#btn-reg{
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+@media only screen and (max-width: 600px){
+    .coluna-escrita{
+        margin-top: 5%;    
+        text-align: center; 
+    }
+    .btn{
+        margin-bottom: 5%;
+    }
+    .imagens-rodape{
+        justify-content: center;
+        margin-top: 0;
+    }
+    .rodape{
+        width: 2rem;
+    }
+}
