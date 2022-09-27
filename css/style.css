@@ -1,22 +1,22 @@
 .nav-link {
     font-weight:700;
-    margin: 10px;
+    margin: 5%;
 }
 
 .butão{
-   /* margin-top: 10%;*/
+    margin-top: 2%;
 }
 
 .navbar-brand{
-    margin-left: 10px;
+    margin-left: 5%;
 }
 
 .coluna-escrita{
-    margin-top: 90px;
+    margin-top: 7%;
 }
 
 .coluna-escrita h1{
-    font-size: 88px;
+    font-size: 5rem;
     font-weight: 700;
 }
 
@@ -25,32 +25,51 @@
 }
 
 #btn-lm{
-    width: 180px;
-    font-size: 20px;
+    width: 30%;
+    font-size: 1rem;
     font-weight: 700;
     border-radius: 15px;
-    height: 50px;
+    height: 10%;
 }
 
 #btn-reg{
     border-radius: 10px;
-    width: 100px;
+    width: 100%;
 }
 
 
 @media only screen and (max-width: 600px){
+    .navbar-registro{
+        margin-left: 5%;
+    }
+    .coluna-imagem{
+        display: grid;
+        justify-content: center;
+        order: 0;
+    }
+    #img-hero{
+        text-align: center;
+        height: 60vh;
+        width: 100vw;
+    }
     .coluna-escrita{
         margin-top: 5%;    
-        text-align: center; 
+        text-align: center;
+        order: 1; 
     }
     .btn{
         margin-bottom: 5%;
     }
     .imagens-rodape{
         justify-content: center;
-        margin-top: 0;
+        margin-bottom: 10%;
     }
     .rodape{
-        width: 2rem;
+        width: 3rem;
     }
+    #btn-lm{
+        width: 50%;
+        border-radius: 30px;
+    }
+    
 }
